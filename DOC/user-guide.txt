@@ -1,0 +1,1 @@
+1)when adding a new sheet to plugin repo a restart of app is required (because create sheet form is singleton inited on class-load time for speed)

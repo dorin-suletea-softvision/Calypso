@@ -1,0 +1,11 @@
+1)BUG: In list DND controller line (page 120)
+
+					//due to the delay in event handling , if deleting an entity and adding another on the place where it was
+					//swing removes the entity from the sheet , but the event has it's intersectionList already initialized 
+					//and resoults : deleted cmp intersects new cmp , deletedCmp getParrent==null , thus NullPointer 
+					//exception
+					for (int i = 0; i < intersectionList.size(); i++) {
+						intersectionList.get(i).getParent().setComponentZOrder(intersectionList.get(i), i);
+					}
+					if (intersectionList.get(i).getParent()!=null) wont work because illegal component position is thrown after
+					try catch wont work because of the future crashes in resizable border for example

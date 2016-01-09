@@ -1,0 +1,27 @@
+2 words
+describing app
+CammelCase
+
+
+Endigs
+------
+tec
+tect
+wire
+works
+frame
+chart
+zio
+
+
+start
+-----
+object
+prototype
+forge
+
+
+ideas
+-----
+JavaTect
+objectect

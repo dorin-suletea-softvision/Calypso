@@ -1,0 +1,2 @@
+1) when a component's size is increased programaticaly eg : by setting a very long string to the name , when the operation is revertez (ctrl+z) the size doesnt decrease back
+2) debug and add the nesting feature (ListDnDController line 83+);resizeable border (line 324-350) (keytag : if (!intersectionArray.isEmpty()))
